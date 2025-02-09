@@ -1,0 +1,42 @@
+[
+    {
+      "message_id": 1,
+      "sender": "User1",
+      "text": "Is anyone else experiencing power outages?",
+      "timestamp": "2023-10-05T14:30:00Z",
+      "location": "Tamil Nadu, India",
+      "severity": "medium"
+    },
+    {
+      "message_id": 2,
+      "sender": "User2",
+      "text": "Yes, power has been out for 2 hours now.",
+      "timestamp": "2023-10-05T14:35:00Z",
+      "location": "Tamil Nadu, India",
+      "severity": "medium"
+    },
+    {
+      "message_id": 3,
+      "sender": "User3",
+      "text": "Stay safe everyone! The cyclone is getting worse.",
+      "timestamp": "2023-10-05T14:40:00Z",
+      "location": "Tamil Nadu, India",
+      "severity": "high"
+    },
+    {
+      "message_id": 4,
+      "sender": "User4",
+      "text": "Does anyone know if the shelters are open?",
+      "timestamp": "2023-10-05T14:45:00Z",
+      "location": "Tamil Nadu, India",
+      "severity": "high"
+    },
+    {
+      "message_id": 5,
+      "sender": "User5",
+      "text": "Yes, the shelter at Central Community Center is open.",
+      "timestamp": "2023-10-05T14:50:00Z",
+      "location": "Tamil Nadu, India",
+      "severity": "high"
+    }
+  ]

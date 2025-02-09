@@ -25,16 +25,19 @@ const DisasterAlertApp = () => {
   const [newMessage, setNewMessage] = useState('');
 
   const emergencyContacts = [
-    { name: 'Emergency Services', number: '911' },
+    { name: 'Emergency Services', number: '112' },
     { name: 'Local Hospital', number: '555-0123' },
-    { name: 'Police Department', number: '555-0199' }
+    { name: 'Police Department', number: '100' }
   ];
 
   const newsUpdates = [
-    { id: 1, title: "Flash Flood Warning", description: "Residents advised to move to higher ground.", severity: "high" },
-    { id: 2, title: "Emergency Shelter Opens", description: "New shelter available at Central Community Center.", severity: "medium" }
+    { id: 1, title: " Land Slides", description: "Residents advised to move to Safer place.", severity: "high" },
+    { id: 2, title: "Emergency Shelter Opens", description: "New shelter available at Central Community Center.", severity: "medium" },
+    { id: 3, title: "Power Outage Expected", description: "Prepare for possible blackouts tonight.", severity: "low" }
   ];
-
+ 
+  
+  
   const getLocation = () => {
     if (navigator.geolocation) {
       navigator.geolocation.getCurrentPosition(
